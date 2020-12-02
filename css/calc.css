@@ -1,0 +1,37 @@
+body {
+  background-image: url("../img/header2.jpeg");
+  background-size: cover;
+}
+
+table {
+  padding: 20px;
+  border: 2px solid;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-image: url("../img/header.jpeg");
+  background-size: cover;
+}
+
+input[type="button"] {
+  border-radius: 10px;
+  background-color: #38b8b1d2;
+  color: whitesmoke;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="button"]:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  border-radius: 10px;
+  text-align: right;
+  background-color: white;
+  border-color: black;
+  width: 100%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
